@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.rongxianren.patterdesign.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="action"
+        android:text="GoActOnt" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FF0000"
+            android:text="我是来挤占空间的" />
+
+        <com.rongxianren.patterdesign.MyLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:background="#00FF00" />
+    </LinearLayout>
+
+    <customview.MyFlowLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#CCCCCC"
+        android:padding="10dp"
+        app:item_array="女朋友-女神-温柔贤惠-倾国倾城-沉鱼落雁-闭月羞花-仙女下凡-没得不要不要的-女朋友-女神-温柔贤惠-倾国倾城-沉鱼落雁-闭月羞花-仙女下凡-没得不要不要的-女朋友-女神-温柔贤惠-倾国倾城-沉鱼落雁-闭月羞花-仙女下凡-没得不要不要的-女朋友-女神-温柔贤惠-倾国倾城-沉鱼落雁-闭月羞花-仙女下凡-没得不要不要的" />
+</LinearLayout>

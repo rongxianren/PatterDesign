@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <touchmode.LinearLayoutSubclass
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <touchmode.ButtonSubclass
+            android:id="@+id/button"
+            android:layout_width="500px"
+            android:layout_height="500px"
+            android:layout_centerInParent="true"
+            android:background="#FF3A9120"
+            android:text="Touch Me"
+            android:textSize="50px" />
+
+    </touchmode.LinearLayoutSubclass>
+
+</RelativeLayout>
