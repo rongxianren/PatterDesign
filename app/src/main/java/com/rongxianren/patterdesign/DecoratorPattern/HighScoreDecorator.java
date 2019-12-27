@@ -14,7 +14,7 @@ public class HighScoreDecorator extends Decorator {
 
     @Override
     public void report() {
-        super.report();
         this.reportHighScore();
+        super.report();
     }
 }
